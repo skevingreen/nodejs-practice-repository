@@ -18,9 +18,9 @@ describe('celsius_to_fahrenheit.js', () => {
   });
 
   // The it() function is a test spec that contains one or more expectations
-  it('should convert -34 degrees Celsius to -29.2 degrees Fahrenheit', () => {
-    const result = celsius_to_fahrenheit(-34); // Call the celsius_to_fahrenheit function with the value of -34
-    expect(result).toBe(-29.2); // The expected result is -29.2
+  it('should convert -34.3 degrees Celsius to -29.7 degrees Fahrenheit', () => {
+    const result = celsius_to_fahrenheit(-34.3); // Call the celsius_to_fahrenheit function with the value of -34
+    expect(result).toBe(-29.7); // The expected result is -29.7
   });
 
   // The it() function is a test spec that contains one or more expectations
